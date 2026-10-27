@@ -1,0 +1,30 @@
+# 密钥与本地配置
+.env
+.env.local
+.env.*.local
+
+# 浏览器登录态（含 Cookie / 历史记录，绝不能提交）
+boss_profile/
+
+# 采集产物（如需提交示例，用 !data/sample_results.json 例外）
+data/*.json
+!data/sample_results.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
