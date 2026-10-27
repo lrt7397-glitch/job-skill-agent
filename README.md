@@ -251,15 +251,6 @@ LLM_API_KEY=ollama
 
 ---
 
-## 数据与隐私
-
-- `boss_profile/` 是 Chromium 用户数据目录，包含登录 Cookie、历史记录等敏感信息，**不要提交到 Git，也不要分享给他人**。
-- `.env` 含 API Key，同样不要提交。
-- `data/results.json` 为采集产物，含第三方公司名称与薪资信息，请勿公开分发。
-
-建议在仓库根目录放置 `.gitignore` 忽略：`.env`、`boss_profile/`、`data/*.json`、`__pycache__/`、`frontend/node_modules/`。
-
----
 
 ## 已知限制
 
